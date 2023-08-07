@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cotizador de Créditos</title>
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+  <div class="container">
+    <h1>Cotizador de Créditos</h1>
+    <div class="input-container">
+      <label for="loan-amount">Monto del préstamo:</label>
+      <input type="number" id="loan-amount" placeholder="Monto en dólares">
+    </div>
+    <div class="input-container">
+      <label for="loan-term">Plazo en meses:</label>
+      <input type="number" id="loan-term" placeholder="Plazo en meses">
+    </div>
+    <div class="input-container">
+      <label for="interest-rate">Tasa de interés anual (%):</label>
+      <input type="number" id="interest-rate" placeholder="Tasa de interés">
+    </div>
+    <button id="calculate-btn">Calcular</button>
+    <div id="result-container">
+      <p class="result" id="monthly-payment">Cuota mensual:</p>
+      <p class="result" id="total-payment">Total a pagar:</p>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
